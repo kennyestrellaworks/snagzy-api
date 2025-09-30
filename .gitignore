@@ -1,0 +1,67 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# dotenv
+.env
+.env.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Build output
+dist/
+build/
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Cloud/Sync
+OneDriveTemp/
+~$*
+
+# Runtime
+*.pid
+*.seed
+
+# Misc
+*.local
+.env.local
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore generated images/uploads if present
+uploads/
+
+# Git
+*.patch
+
+# Allow keeping placeholder files
+!.gitkeep
+
+scripts/

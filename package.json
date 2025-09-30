@@ -1,0 +1,39 @@
+{
+  "name": "snagzy-api-v1",
+  "version": "1.0.0",
+  "description": "Snagzy API with MongoDB integration",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed:users": "node seeders/userSeeder.js",
+    "seed:orders": "node seeders/orderSeeder.js",
+    "seed:categories": "node seeders/categorySeeder.js",
+    "seed:products": "node seeders/productSeeder.js",
+    "seed:stores": "node seeders/storeSeeder.js",
+    "seed:tags": "node seeders/tagSeeder.js",
+    "seed:variants": "node seeders/variantSeeder.js",
+    "seed:navLinks": "node seeders/navLinkSeeder.js"
+  },
+  "keywords": [
+    "mongodb",
+    "api",
+    "express",
+    "nodejs"
+  ],
+  "author": "Kenny",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "express-rate-limit": "^7.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
