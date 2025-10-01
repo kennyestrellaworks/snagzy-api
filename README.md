@@ -1,6 +1,7 @@
 # Snagzy API
 
-- This project is deployed to both Render and Railway on their free tiers. Free tiers often have limitations such as limited concurrency, rate limits, and periodic sleeping of inactive services.
+- This project is a read-only REST-style HTTP API and ndpoints return JSON responses.
+- Deployed to both Render and Railway on their free tiers. Free tiers often have limitations such as limited concurrency, rate limits, and periodic sleeping of inactive services.
 - On Render's free plan the service may go to sleep after inactivity. When that happens the first request will trigger a cold start and the app may take some time to wake — it can sometimes take around 1–5 minutes (occasionally longer) before the app responds.
 - Railway's free plan may also have resource limits and less predictable cold-start behavior depending on your plan and region.
 - For testing: if a request to Render fails the first time, wait a minute or two and retry — the service is likely waking up.
