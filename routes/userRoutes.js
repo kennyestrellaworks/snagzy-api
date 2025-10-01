@@ -23,7 +23,7 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-// GET users by gender (must be ABOVE /:id)
+// GET users by gender
 router.get("/gender/:gender", async (req, res) => {
   try {
     const genderParam = req.params.gender;

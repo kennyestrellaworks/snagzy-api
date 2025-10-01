@@ -14,7 +14,8 @@
     "seed:stores": "node seeders/storeSeeder.js",
     "seed:tags": "node seeders/tagSeeder.js",
     "seed:variants": "node seeders/variantSeeder.js",
-    "seed:navLinks": "node seeders/navLinkSeeder.js"
+    "seed:navLinks": "node seeders/navLinkSeeder.js",
+    "seed:all": "npm run seed:users && npm run seed:orders && npm run seed:categories && npm run seed:products && npm run seed:stores && npm run seed:tags && npm run seed:variants && npm run seed:navLinks"
   },
   "keywords": [
     "mongodb",

@@ -79,19 +79,24 @@ curl -s https://snagzy-api-production.up.railway.app/api/v1/orders/buyer/people1
 
 - GET `/api/v1/users/`
   - Description: Get all users
+
 - GET `/api/v1/users/:id`
   - Description: Get user by ID
+
 - GET `/api/v1/users/gender/:gender`
-  - Description: Get users by gender (case-insensitive)
+  - Description: Get users by gender
 
 ## Products
 
 - GET `/api/v1/products/`
   - Description: Get all products
+
 - GET `/api/v1/products/:id`
   - Description: Get product by ID
+
 - GET `/api/v1/products/store/:storeId`
   - Description: Get all products for a given `storeId`
+
 - GET `/api/v1/products/owner/:ownerId`
   - Description: Get all products for a given `ownerId`
 
@@ -99,6 +104,7 @@ curl -s https://snagzy-api-production.up.railway.app/api/v1/orders/buyer/people1
 
 - GET `/api/v1/categories/`
   - Description: Get all categories
+
 - GET `/api/v1/categories/:id`
   - Description: Get category by ID
 
@@ -106,6 +112,7 @@ curl -s https://snagzy-api-production.up.railway.app/api/v1/orders/buyer/people1
 
 - GET `/api/v1/variants/`
   - Description: Get all variants
+
 - GET `/api/v1/variants/:id`
   - Description: Get variant by ID
 
@@ -113,6 +120,7 @@ curl -s https://snagzy-api-production.up.railway.app/api/v1/orders/buyer/people1
 
 - GET `/api/v1/tags/`
   - Description: Get all tags
+
 - GET `/api/v1/tags/:id`
   - Description: Get tag by ID
 
@@ -120,8 +128,10 @@ curl -s https://snagzy-api-production.up.railway.app/api/v1/orders/buyer/people1
 
 - GET `/api/v1/stores/`
   - Description: Get all stores
+
 - GET `/api/v1/stores/:id`
   - Description: Get store by ID
+
 - GET `/api/v1/stores/owner/:ownerId`
   - Description: Get stores for a given `ownerId`
 
@@ -129,14 +139,19 @@ curl -s https://snagzy-api-production.up.railway.app/api/v1/orders/buyer/people1
 
 - GET `/api/v1/orders/`
   - Description: Get all orders
+
 - GET `/api/v1/orders/:id`
   - Description: Get order by ID
+
 - GET `/api/v1/orders/buyer/:buyerId`
   - Description: Get orders for a given `buyerId`
+
 - GET `/api/v1/orders/product/:productId`
   - Description: Get orders that include a given `productId` in `items` array
+
 - GET `/api/v1/orders/status/:status`
   - Description: Get orders by `status` field
+
 - GET `/api/v1/orders/payment-status/:paymentStatus`
   - Description: Get orders by `paymentStatus` field
 

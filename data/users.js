@@ -83,7 +83,7 @@ export const users = [
     suffix: "",
     slug: "lauren-wilson-peterson",
     jobTitle: "Business Analyst",
-    gender: "Female",
+    gender: "female",
     contact: [
       {
         phone: "+639528648200",
@@ -159,7 +159,7 @@ export const users = [
     suffix: "",
     slug: "jane-sanchez-ramirez",
     jobTitle: "Content Writer",
-    gender: "Female",
+    gender: "female",
     contact: [
       {
         phone: "+639715928700",
@@ -197,7 +197,7 @@ export const users = [
     suffix: "",
     slug: "belinda-taylor-mitchell",
     jobTitle: "Customer Service Representative",
-    gender: "Female",
+    gender: "female",
     contact: [
       {
         phone: "+639245687251",
@@ -311,7 +311,7 @@ export const users = [
     suffix: "",
     slug: "dawn-jackson-sullivan",
     jobTitle: "Electrician",
-    gender: "Female",
+    gender: "female",
     contact: [
       {
         phone: "+639074905700",
@@ -387,7 +387,7 @@ export const users = [
     suffix: "",
     slug: "madison-martinez-rodriguez",
     jobTitle: "Graphic Designer",
-    gender: "Female",
+    gender: "female",
     contact: [
       {
         phone: "+639567254600",
@@ -425,7 +425,7 @@ export const users = [
     suffix: "",
     slug: "jasmine-miller-lee",
     jobTitle: "Human Resources Manager",
-    gender: "Female",
+    gender: "female",
     contact: [
       {
         phone: "+639821799500",
@@ -463,7 +463,7 @@ export const users = [
     suffix: "",
     slug: "jonna-brown-navarro",
     jobTitle: "IT Support Specialist",
-    gender: "Female",
+    gender: "female",
     contact: [
       {
         phone: "+639306438900",
@@ -539,7 +539,7 @@ export const users = [
     suffix: "",
     slug: "christina-tanner-yu",
     jobTitle: "Marketing Coordinator",
-    gender: "Female",
+    gender: "female",
     contact: [
       {
         phone: "+639579932200",
@@ -577,7 +577,7 @@ export const users = [
     suffix: "",
     slug: "carrie-leavy-hurley",
     jobTitle: "Mechanical Engineer",
-    gender: "Female",
+    gender: "female",
     contact: [
       {
         phone: "+639983461700",
@@ -615,7 +615,7 @@ export const users = [
     suffix: "",
     slug: "kristen-williams-smith",
     jobTitle: "Nurse",
-    gender: "Female",
+    gender: "female",
     contact: [
       {
         phone: "+639360823200",
@@ -653,7 +653,7 @@ export const users = [
     suffix: "",
     slug: "samantha-gibson-hansen",
     jobTitle: "Operations Manager",
-    gender: "Female",
+    gender: "female",
     contact: [
       {
         phone: "+639291010200",
@@ -919,7 +919,7 @@ export const users = [
     suffix: "",
     slug: "gianna-collins-carter",
     jobTitle: "Technical Writer",
-    gender: "Female",
+    gender: "female",
     contact: [
       {
         phone: "+639993323900",
@@ -957,7 +957,7 @@ export const users = [
     suffix: "",
     slug: "deanna-curry-valentine",
     jobTitle: "UX/UI Designer",
-    gender: "Female",
+    gender: "female",
     contact: [
       {
         phone: "+639220161400",
@@ -995,7 +995,7 @@ export const users = [
     suffix: "",
     slug: "max-smith-rollins",
     jobTitle: "Veterinarian",
-    gender: "Female",
+    gender: "female",
     contact: [
       {
         phone: "+639750623200",
@@ -1071,7 +1071,7 @@ export const users = [
     suffix: "",
     slug: "jillian-thomas-brooks",
     jobTitle: "Web Developer",
-    gender: "Female",
+    gender: "female",
     contact: [
       {
         phone: "+639530203500",
@@ -1109,7 +1109,7 @@ export const users = [
     suffix: "",
     slug: "pamela-santos-perez",
     jobTitle: "Accountant",
-    gender: "Female",
+    gender: "female",
     contact: [
       {
         phone: "+639325219200",
@@ -1223,7 +1223,7 @@ export const users = [
     suffix: "",
     slug: "maria-pedro-santos",
     jobTitle: "Administrative Assistant",
-    gender: "Female",
+    gender: "female",
     contact: [
       {
         phone: "+639171234567",
@@ -1261,7 +1261,7 @@ export const users = [
     suffix: "",
     slug: "jessica-nuñez-garcia",
     jobTitle: "Civil Engineer",
-    gender: "Female",
+    gender: "female",
     contact: [
       {
         phone: "+639201112233",
