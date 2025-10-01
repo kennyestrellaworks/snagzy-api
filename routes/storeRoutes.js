@@ -12,17 +12,6 @@ router.get("/", async (req, res) => {
   }
 });
 
-// GET store by ownerId
-router.get("/owner/:ownerId", async (req, res) => {
-  const { ownerId } = req.params;
-  try {
-    const stores = await Store.find({ ownerId });
-    return res.json(stores);
-  } catch (err) {
-    return res.status(500).json({ message: err.message });
-  }
-});
-
 // GET store by ID
 router.get("/:id", async (req, res) => {
   try {
@@ -31,6 +20,17 @@ router.get("/:id", async (req, res) => {
     res.json(store);
   } catch (err) {
     res.status(500).json({ message: err.message });
+  }
+});
+
+// GET store by ownerId
+router.get("/owner/:ownerId", async (req, res) => {
+  const { ownerId } = req.params;
+  try {
+    const stores = await Store.find({ ownerId });
+    return res.json(stores);
+  } catch (err) {
+    return res.status(500).json({ message: err.message });
   }
 });
 

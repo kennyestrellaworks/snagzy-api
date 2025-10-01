@@ -23,4 +23,25 @@ router.get("/:id", async (req, res) => {
   }
 });
 
+// GET users by gender (must be ABOVE /:id)
+router.get("/gender/:gender", async (req, res) => {
+  try {
+    const genderParam = req.params.gender;
+    // Use case-insensitive search so "male" and "Male" both work
+    const users = await User.find({
+      gender: { $regex: new RegExp("^" + genderParam + "$", "i") },
+    });
+
+    if (!users.length) {
+      return res
+        .status(404)
+        .json({ message: "No users found with that gender" });
+    }
+
+    res.json(users);
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+});
+
 export default router;
