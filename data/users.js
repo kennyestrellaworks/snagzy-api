@@ -7,7 +7,7 @@ export const users = [
     suffix: "",
     slug: "christian-harris-rogers",
     jobTitle: "Account Manager",
-    gender: "Male",
+    gender: "male",
     contact: [
       {
         phone: "+639991059200",
@@ -45,7 +45,7 @@ export const users = [
     suffix: "III",
     slug: "michael-lee-ford",
     jobTitle: "Administrative Assistant",
-    gender: "Male",
+    gender: "male",
     contact: [
       {
         phone: "+639041729500",
@@ -121,7 +121,7 @@ export const users = [
     suffix: "",
     slug: "robert-robinson-nelson",
     jobTitle: "Civil Engineer",
-    gender: "Male",
+    gender: "male",
     contact: [
       {
         phone: "+639917672100",
@@ -235,7 +235,7 @@ export const users = [
     suffix: "Sr",
     slug: "peter-clark-herrera",
     jobTitle: "Data Scientist",
-    gender: "Male",
+    gender: "male",
     contact: [
       {
         phone: "+639058690100",
@@ -273,7 +273,7 @@ export const users = [
     suffix: "",
     slug: "james-hernandez-johnson",
     jobTitle: "Digital Marketing Specialist",
-    gender: "Male",
+    gender: "male",
     contact: [
       {
         phone: "+639980290500",
@@ -349,7 +349,7 @@ export const users = [
     suffix: "",
     slug: "raymund-moore-blackburn",
     jobTitle: "Financial Analyst",
-    gender: "Male",
+    gender: "male",
     contact: [
       {
         phone: "+639121620600",
@@ -501,7 +501,7 @@ export const users = [
     suffix: "",
     slug: "george-booker-young",
     jobTitle: "Legal Counsel",
-    gender: "Male",
+    gender: "male",
     contact: [
       {
         phone: "+639197438200",
@@ -691,7 +691,7 @@ export const users = [
     suffix: "Jr",
     slug: "patrick-johannes-morgan",
     jobTitle: "Project Manager",
-    gender: "Male",
+    gender: "male",
     contact: [
       {
         phone: "+639105657900",
@@ -729,7 +729,7 @@ export const users = [
     suffix: "Jr",
     slug: "martin-eaton-hall",
     jobTitle: "Real Estate Agent",
-    gender: "Male",
+    gender: "male",
     contact: [
       {
         phone: "+639642620200",
@@ -767,7 +767,7 @@ export const users = [
     suffix: "",
     slug: "jason-dolson-campbell",
     jobTitle: "Registered Nurse",
-    gender: "Male",
+    gender: "male",
     contact: [
       {
         phone: "+639094965800",
@@ -805,7 +805,7 @@ export const users = [
     suffix: "",
     slug: "jefferson-martins-riley",
     jobTitle: "Sales Associate",
-    gender: "Male",
+    gender: "male",
     contact: [
       {
         phone: "+639178802700",
@@ -843,7 +843,7 @@ export const users = [
     suffix: "",
     slug: "william-molly-long",
     jobTitle: "Software Developer",
-    gender: "Male",
+    gender: "male",
     contact: [
       {
         phone: "+639543105500",
@@ -881,7 +881,7 @@ export const users = [
     suffix: "",
     slug: "heather-cortez-duarte",
     jobTitle: "Teacher",
-    gender: "Male",
+    gender: "male",
     contact: [
       {
         phone: "+639044838700",
@@ -1033,7 +1033,7 @@ export const users = [
     suffix: "",
     slug: "robert-choi-lim",
     jobTitle: "Business Analyst",
-    gender: "Male",
+    gender: "male",
     contact: [
       {
         phone: "+639087654321",
@@ -1147,7 +1147,7 @@ export const users = [
     suffix: "",
     slug: "david-nuñez-torres",
     jobTitle: "Chef",
-    gender: "Male",
+    gender: "male",
     contact: [
       {
         phone: "+639707325500",
@@ -1185,7 +1185,7 @@ export const users = [
     suffix: "",
     slug: "john-thompson-cruz",
     jobTitle: "Account Manager",
-    gender: "Male",
+    gender: "male",
     contact: [
       {
         phone: "+639123456789",
@@ -1299,7 +1299,7 @@ export const users = [
     suffix: "",
     slug: "carlson-red-mcConnel",
     jobTitle: "Content Writer",
-    gender: "Male",
+    gender: "male",
     contact: [
       {
         phone: "+639987776655",
@@ -1337,7 +1337,7 @@ export const users = [
     suffix: "",
     slug: "kenny-apas-estrella",
     jobTitle: "Shield Secret Agent",
-    gender: "Male",
+    gender: "male",
     contact: [
       {
         phone: "+6392223334455",
