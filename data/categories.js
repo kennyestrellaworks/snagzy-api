@@ -10,6 +10,9 @@ export const categories = [
     createdBy: "user43210987nopqrstu",
     createdAt: "2024-07-01T04:00:00Z",
     updatedAt: "2025-07-25T01:22:00Z",
+    image: [
+      "https://res.cloudinary.com/davjgeymf/image/upload/v1760550976/electronics_orabh4.jpg",
+    ],
   },
   {
     _id: "category38549521nokzsedg",
@@ -23,6 +26,7 @@ export const categories = [
     createdBy: "user43210987nopqrstu",
     createdAt: "2023-03-08T06:00:00Z",
     updatedAt: "2025-07-24T19:00:00Z",
+    image: [],
   },
   {
     _id: "category82469513nxswedvj",
@@ -36,6 +40,7 @@ export const categories = [
     createdBy: "user43210987nopqrstu",
     createdAt: "2023-04-22T19:00:00Z",
     updatedAt: "2025-07-25T00:30:00Z",
+    image: [],
   },
   {
     _id: "category92658435pocveqyf",
@@ -49,6 +54,9 @@ export const categories = [
     createdBy: "user43210987nopqrstu",
     createdAt: "2024-02-05T09:00:00Z",
     updatedAt: "2025-07-24T15:00:00Z",
+    image: [
+      "https://res.cloudinary.com/davjgeymf/image/upload/v1760550935/clothing_taislq.jpg",
+    ],
   },
   {
     _id: "category75144628lkionhyd",
@@ -62,6 +70,7 @@ export const categories = [
     createdBy: "user43210987nopqrstu",
     createdAt: "2023-01-20T14:45:00Z",
     updatedAt: "2025-06-10T05:00:00Z",
+    image: [],
   },
   {
     _id: "category64258437zefjiyuo",
@@ -75,6 +84,7 @@ export const categories = [
     createdBy: "user43210987nopqrstu",
     createdAt: "2024-05-01T09:30:00Z",
     updatedAt: "2025-07-25T01:18:00Z",
+    image: [],
   },
   {
     _id: "category27498862xcerppkn",
@@ -88,6 +98,9 @@ export const categories = [
     createdBy: "user43210987nopqrstu",
     createdAt: "2023-08-17T15:00:00Z",
     updatedAt: "2025-07-24T23:00:00Z",
+    image: [
+      "https://res.cloudinary.com/davjgeymf/image/upload/v1760551062/furniture_ix0jh2.jpg",
+    ],
   },
   {
     _id: "category68124457liimvjdr",
@@ -101,6 +114,9 @@ export const categories = [
     createdBy: "user43210987nopqrstu",
     createdAt: "2024-08-17T15:00:00Z",
     updatedAt: "2025-07-24T23:00:00Z",
+    image: [
+      "https://res.cloudinary.com/davjgeymf/image/upload/v1760551021/eyewear_bh5v0i.jpg",
+    ],
   },
   {
     _id: "category84652487difcvzwd",
@@ -114,6 +130,7 @@ export const categories = [
     createdBy: "user43210987nopqrstu",
     createdAt: "2024-08-17T15:00:00Z",
     updatedAt: "2025-07-24T23:00:00Z",
+    image: [],
   },
   {
     _id: "category863215491cijdvleg",
@@ -127,6 +144,7 @@ export const categories = [
     createdBy: "user43210987nopqrstu",
     createdAt: "2024-08-17T15:00:00Z",
     updatedAt: "2025-07-24T23:00:00Z",
+    image: [],
   },
   {
     _id: "category42336157hescuyml",
@@ -139,6 +157,9 @@ export const categories = [
     createdBy: "user43210987nopqrstu",
     createdAt: "2024-08-17T15:00:00Z",
     updatedAt: "2025-07-24T23:00:00Z",
+    image: [
+      "https://res.cloudinary.com/davjgeymf/image/upload/v1760550857/bags_ct8wrj.jpg",
+    ],
   },
   {
     _id: "category84315765hwscphll",
@@ -151,6 +172,7 @@ export const categories = [
     createdBy: "user43210987nopqrstu",
     createdAt: "2024-08-17T15:00:00Z",
     updatedAt: "2025-07-24T23:00:00Z",
+    image: [],
   },
   {
     _id: "category96237485kdvhfort",
@@ -163,5 +185,6 @@ export const categories = [
     createdBy: "user43210987nopqrstu",
     createdAt: "2024-08-17T15:00:00Z",
     updatedAt: "2025-07-24T23:00:00Z",
+    image: [],
   },
 ];
