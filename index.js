@@ -29,7 +29,18 @@ connectDB();
 // Security middleware
 app.use(helmet());
 
-// Rate limiting
+// ---------- PUBLIC CORS (Allow All Origins) ----------
+// This makes your API accessible from any domain, app, or tool.
+app.use(
+  cors({
+    origin: "*", // Allow EVERY origin
+    methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  }),
+);
+// -----------------------------------------------------
+
+// Rate limiting – keep this to protect your free API from abuse
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: 100, // limit each IP to 100 requests per windowMs
